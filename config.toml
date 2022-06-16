@@ -46,10 +46,10 @@ canonifyurls = true
 [author]
   name = "高肥的嘴砲空間"
   bio = "這裡只有**嘴砲**，沒有真理，看看就好"
-  job = "Your job title"
-  location = "France"
+  job = "Software Engineer"
+  location = "Taiwan"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
-  gravatarEmail = "thibaud.lepretre@gmail.com"
+  gravatarEmail = "tzupingkao@gmail.com"
   # Your profile picture
   # Overwritten by your gravatar image if `author.gravatarEmail` is filled
   picture = "https://cdn1.iconfinder.com/data/icons/ninja-things-1/1772/ninja-simple-512.png"
