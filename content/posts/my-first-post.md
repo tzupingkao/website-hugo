@@ -9,6 +9,7 @@ tags:
 - chinese
 thumbnailImagePosition: left
 thumbnailImage: //d1u9biwaxjngwg.cloudfront.net/chinese-test-post/vintage-140.jpg
+mathjax: true
 ---
 
 This is a chinese test post to show you how chinese is displayed.
@@ -28,3 +29,44 @@ This is a chinese test post to show you how chinese is displayed.
 
 ![圖片介紹](/img/showcase.png)
 ![圖片介紹2](/img/IMG_1331.jpeg)
+
+
+$
+\begin{align}
+x\left[n\right]&=x(nT_s)\\\
+&=A\cos\left(2\pi f\cdot nT_s+\phi\right)\\\
+&=A\cos\left(2\pi f\cdot n\cdot\frac1{f_s}+\phi\right)\\\
+&=A\cos\left(\frac{2\pi f}{f_s}\cdot n+\phi\right)\\\
+&=A\cos\left(\widehat\omega\cdot n+\phi\right)
+\end{align}
+$
+
+
+$
+\begin{equation}
+    \begin{aligned}
+        L_{task} = &\lambda_1 L_{per}(G_s(x),G_t(x))  +\lambda_1  L_{CE}(y,\delta(z_s))\\\ 
+                   & + \lambda_1L_{Focal}(y,y_{out})
+    \end{aligned}
+\end{equation}
+$
+
+$a=\left\{\begin{array}{l}1\\0\end{array}\right.$
+
+$$
+\begin{matrix}
+1 & x & x^2 \\\
+1 & y & y^2 \\\
+1 & z & z^2 \\\
+\end{matrix}
+$$
+
+$$
+\begin{align}
+\sqrt{37} & = \sqrt{\frac{73^2-1}{12^2}} \\\
+ & = \sqrt{\frac{73^2}{12^2}\cdot\frac{73^2-1}{73^2}} \\\
+ & = \sqrt{\frac{73^2}{12^2}}\sqrt{\frac{73^2-1}{73^2}} \\\
+ & = \frac{73}{12}\sqrt{1 - \frac{1}{73^2}} \\\
+ & \approx \frac{73}{12}\left(1 - \frac{1}{2\cdot73^2}\right)
+\end{align}
+$$
